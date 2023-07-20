@@ -78,3 +78,9 @@ a:active {
     background: #C87FEA;
     color: #f4faa3;
   }
+
+a[href^="http"] {
+    background: url("icons8-external-link-26.png") no-repeat 100% 8px;
+    background-size: 16px 16px;
+    padding-right: 19px;
+  }
