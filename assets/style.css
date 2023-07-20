@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,9 +11,12 @@ footer {
     background-color: blue;
     color: white;
 }
+
 h1,
 h2 {
+    font-family:'Black Han Sans', sans-serif;
     text-align: center;
+    margin: 10px;
 }
 
 img {
@@ -23,6 +28,7 @@ img {
 }
 
 ul {
+    font-family: 'Open Sans', sans-serif;
     padding-left: 40px;
     font-size: 20px;
 }
@@ -35,6 +41,11 @@ p {
 .card {
     width: 80%;
     margin: 40px auto;
+    padding: 4px;
     border: 5px solid #C87FEA;
     box-shadow: 5px 10px #D1B1E0;
   }
+
+strong {
+    color: rgb(111, 22, 138);
+}
