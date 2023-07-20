@@ -47,5 +47,34 @@ p {
   }
 
 strong {
-    color: rgb(111, 22, 138);
+    color: #6f168a;
 }
+
+/*Styling links in specfic state order
+*/
+a {
+    outline: none;
+  }
+  
+a:link {
+    color: #1f02ff;
+  }
+  
+a:visited {
+    color: #0d5703;
+  }
+  
+a:focus {
+    text-decoration: none;
+    background: #f4faa3;
+  }
+  
+a:hover {
+    text-decoration: none;
+    background: #f4faa3;
+  }
+  
+a:active {
+    background: #C87FEA;
+    color: #f4faa3;
+  }
