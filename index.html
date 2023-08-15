@@ -36,6 +36,11 @@
       <section class="card" id="git-section">
         <h2>GIT</h2>
         <ul>
+          <li><strong>ls -al ~/.ssh:</strong> command to check for existing SSH key</li>
+          <li><strong>cat ~/.ssh/id_ed25519.pub:</strong> command for opening existing SSH key</li>
+          <li><strong>cat ~/.ssh/id_ed25519.pub | clip:</strong> command for copying existing SSH key</li>
+          <li><strong>notepad ~/.ssh/id_ed25519.pub | clip:</strong> command for opening SSH key in notepad</li>
+          <li><strong>ssh -T git@git.bootcampcontent.com: </strong> command for verifying SSH key has been setup in Git account and connection has been established</strong> </li>
           <li><strong>git status:</strong> checks what branch we are currently on</li>
           <li><strong>git checkout -b branch-name:</strong> creates a new branch and switches to it</li>
           <li><strong>git add -A:</strong> check the branch adding the changed files to the staging area</li>
@@ -43,13 +48,20 @@
           <li><strong>git pull origin main:</strong> make sure current branch is up to date by pulling latest version of Main branch before opening a pull request</li>
           <li><strong>git push origin branch-name:</strong> push changes to Github remote server</li>
           <li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Syntax cheat sheet</a></li>
+          <li><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git cheat sheet for commands</a></li>          
         </ul>
       </section>
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
           <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>var (method supported on older browswer/not recommended anymore): allows variable to declared after initialisation and can be declared multiple times. Variables created with var have global scope whereas let and const are created as local variable by default.</li>
+          <li>let: can only be declared once and declaration need to come before initialisation. Object data can be updated. </li>
+          <li>const: variable must be declared and initialised at the same time. The object assigned to a const variable cannot be changed or updated, but the object's property value can be updated. </li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>JS is interpreted in order of code and may fail if DOM hasn't completed loading</li>
+          <li>Async loading &lt;script async src="js/script2.js"&gt;&lt;/script&gt;: scripts will execute as soon as the download is complete. This blocks the page and does not guarantee any specific execution order. Use if your scripts should be run immediately and they don't have any dependencies</li>
+          <li>Defer loading &lt;script defer src="js/script2.js"&gt;&lt;/script&gt;: scripts will load in the order they are in and will only execute once everything has finished loading.If your scripts need to wait for parsing and depend on other scripts and/or the DOM being in place, load them using defer and put their corresponding &lt;/script&gt; elements in the order you want the browser to execute them.</li>
         </ul>
       </section>
     </main>
