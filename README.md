@@ -22,7 +22,7 @@ To use this study guide, you can review the notes in each section.
 You can also review the links to CSS and JS script files using the Chrome DevTools by right clicking on the page and select Inspect. Alternatively you can use shortcuts Ctrl+Shift+I.
 Under the Console tab, the JS function will list the topics and choose a random topic to study.
 
-![alt text](assets/screenshot.png)
+![alt text](assets/Screenshot.png)
 
 ## Credits
 
